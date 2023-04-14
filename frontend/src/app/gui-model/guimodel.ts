@@ -111,7 +111,7 @@ export class GuiModel {
                             "type": "button",
                             "name": { default: "Module" },
                             "icon": "fa-file-alt",
-                            "color": "wet-asphalt",
+                            "color": "blue",
                             "page": "modulePage",
                             "width": 1,
                         },
