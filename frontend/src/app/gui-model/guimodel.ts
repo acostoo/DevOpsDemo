@@ -113,8 +113,7 @@ export class GuiModel {
                             "icon": "fa-file-alt",
                             "color": "wet-asphalt",
                             "page": "modulePage",
-                            "width": 2,
-                            "newRow": true,
+                            "width": 1,
                         },
                     ]
                 },
