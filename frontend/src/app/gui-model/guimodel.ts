@@ -107,6 +107,15 @@ export class GuiModel {
                             "width": 2,
                             "newRow": true,
                         },
+                        {
+                            "type": "button",
+                            "name": { default: "Module" },
+                            "icon": "fa-file-alt",
+                            "color": "wet-asphalt",
+                            "page": "modulePage",
+                            "width": 2,
+                            "newRow": true,
+                        },
                     ]
                 },
                 {
