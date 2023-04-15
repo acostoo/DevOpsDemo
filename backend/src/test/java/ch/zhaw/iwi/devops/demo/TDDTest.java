@@ -15,19 +15,3 @@ class ConvertTest1 {
         assertThat("X").isEqualTo(numberConverter.convert(10));
                     
     }
-
-}
-
-    public String roman;
-
-    @Test
-    public void numberConverter2() {
-        NumberConverter numberConverter = new NumberConverter();
-        
-        roman = numberConverter.getCharacter();
-
-        assertThat(roman).isEqualTo(numberConverter.convert(10));
-
-    }
-
-}
