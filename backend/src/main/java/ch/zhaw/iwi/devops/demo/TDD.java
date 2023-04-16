@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 
 public class TDD {
     
-    String character = "X";
+    String character = "Y";
 
     public String getCharacter() {
         return character;
@@ -19,18 +19,18 @@ public class TDD {
 
     public void put(){
         characters.put("M", 1000);
-        characters.put("CM", 900);
         characters.put("D", 500);
-        characters.put("CD", 400);
         characters.put("C", 100);
         characters.put("XC", 90);
+        characters.put("LXXX", 80);
+        characters.put("LX", 60);
         characters.put("L", 50);
-        characters.put("XL", 40);
+        characters.put("XX", 20);
         characters.put("X", 10);
         characters.put("IX", 9);
+        characters.put("IV", 6);
         characters.put("V", 5);
-        characters.put("IV", 4);
-        characters.put("I", 1);  
+        characters.put("I", 1);
     }
     
     public String convert(int i) {
