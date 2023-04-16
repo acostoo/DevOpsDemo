@@ -6,7 +6,7 @@ public class RomanNumeralConverter {
     private final static TreeMap<Integer, String> map = new TreeMap<Integer, String>();
 
     static {
-        map.put(1, "I");
+        //map.put(1, "I");
         map.put(4, "IV");
         map.put(5, "V");
         map.put(9, "IX");
