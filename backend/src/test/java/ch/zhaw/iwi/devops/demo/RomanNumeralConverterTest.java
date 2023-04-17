@@ -31,4 +31,11 @@ public class RomanNumeralConverterTest {
         String result = converter.convert(4);
         Assertions.assertEquals("IV", result);
     }
+
+    @Test
+    public void testConvert_5() {
+        RomanNumeralConverter converter = new RomanNumeralConverter();
+        String result = converter.convert(5);
+        Assertions.assertEquals("V", result);
+    }
 }
