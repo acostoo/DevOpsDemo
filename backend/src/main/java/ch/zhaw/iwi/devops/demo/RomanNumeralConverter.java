@@ -22,10 +22,10 @@ public class RomanNumeralConverter {
     }
 
     public static String convert(int number) {
-        int l = map.floorKey(number);
-        if (number == l) {
+        int i = map.floorKey(number);
+        if (number == i) {
             return map.get(number);
         }
-        return map.get(l) + convert(number - l);
+        return map.get(i) + convert(number - i);
     }
 }
