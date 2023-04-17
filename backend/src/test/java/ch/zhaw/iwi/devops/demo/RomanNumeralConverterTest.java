@@ -17,4 +17,11 @@ public class RomanNumeralConverterTest {
         String result = converter.convert(2);
         Assertions.assertEquals("II", result);
     }
+
+    @Test
+    public void testConvert_3() {
+        RomanNumeralConverter converter = new RomanNumeralConverter();
+        String result = converter.convert(3);
+        Assertions.assertEquals("III", result);
+    }
 }
