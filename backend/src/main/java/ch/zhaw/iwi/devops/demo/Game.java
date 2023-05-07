@@ -30,5 +30,24 @@ public class Game {
     private boolean isStrike(int rollIndex) {
         return rolls[rollIndex] == 10;
     }
+    private boolean isStrike(int rollIndex) {
+        return rolls[rollIndex] == 10;
+    }
+
+    private boolean isSpare(int rollIndex) {
+        return rolls[rollIndex] + rolls[rollIndex + 1] == 10;
+    }
+
+    private int sumOfPinsInFrame(int rollIndex) {
+        return rolls[rollIndex] + rolls[rollIndex + 1];
+    }
+
+    private int spareBonus(int rollIndex) {
+        return rolls[rollIndex + 2];
+    }
+
+    private int strikeBonus(int rollIndex) {
+        return rolls[rollIndex + 1] + rolls[rollIndex + 2];
+    }
 
 }
