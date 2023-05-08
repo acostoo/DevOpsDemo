@@ -5,70 +5,70 @@ import org.junit.jupiter.api.Test;
 public class RomanNumeralConverterTest {
 
     @Test
-    public void testConvert_1() {
+    private void testConvert_1() {
         RomanNumeralConverter converter = new RomanNumeralConverter();
         String result = converter.convert(1);
         Assertions.assertEquals("I", result);
     }
     
     @Test
-    public void testConvert_2() {
+    private void testConvert_2() {
         RomanNumeralConverter converter = new RomanNumeralConverter();
         String result = converter.convert(2);
         Assertions.assertEquals("II", result);
     }
 
     @Test
-    public void testConvert_3() {
+    private void testConvert_3() {
         RomanNumeralConverter converter = new RomanNumeralConverter();
         String result = converter.convert(3);
         Assertions.assertEquals("III", result);
     }
 
     @Test
-    public void testConvert_4() {
+    private void testConvert_4() {
         RomanNumeralConverter converter = new RomanNumeralConverter();
         String result = converter.convert(4);
         Assertions.assertEquals("IV", result);
     }
 
     @Test
-    public void testConvert_5() {
+    private void testConvert_5() {
         RomanNumeralConverter converter = new RomanNumeralConverter();
         String result = converter.convert(5);
         Assertions.assertEquals("V", result);
     }
 
     @Test
-    public void testConvert_9() {
+    private void testConvert_9() {
         RomanNumeralConverter converter = new RomanNumeralConverter();
         String result = converter.convert(9);
         Assertions.assertEquals("IX", result);
     }
     
     @Test
-    public void testConvert_21() {
+    private void testConvert_21() {
         RomanNumeralConverter converter = new RomanNumeralConverter();
         String result = converter.convert(21);
         Assertions.assertEquals("XXI", result);
     }
 
     @Test
-    public void testConvert_50() {
+    private void testConvert_50() {
         RomanNumeralConverter converter = new RomanNumeralConverter();
         String result = converter.convert(50);
         Assertions.assertEquals("L", result);
     }
     
     @Test
-    public void testConvert_100() {
+    private void testConvert_100() {
         RomanNumeralConverter converter = new RomanNumeralConverter();
         String result = converter.convert(100);
         Assertions.assertEquals("C", result);
     }
 
     @Test
-    public void testConvert_final() {
+    private void testConvert_final() {
         Assertions.assertEquals("I", RomanNumeralConverter.convert(1));
         Assertions.assertEquals("II", RomanNumeralConverter.convert(2));
         Assertions.assertEquals("III", RomanNumeralConverter.convert(3));
