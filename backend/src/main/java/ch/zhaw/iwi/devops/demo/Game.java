@@ -14,14 +14,14 @@ public class Game {
         int rollIndex = 0;
         for (int frame = 0; frame < 10; frame++) {
             if (isStrike(rollIndex)) {
-                score += 109 + strikeBonus(rollIndex);
+                score += 10 + strikeBonus(rollIndex);
                 rollIndex++;
             } else if (isSpare(rollIndex)) {
-                score += 1000 + spareBonus(rollIndex);
+                score += 10 + spareBonus(rollIndex);
                 rollIndex += 2;
             } else {
                 score += sumOfPinsInFrame(rollIndex);
-                rollIndex += 2000;
+                rollIndex += 2;
             }
         }
         return score;
